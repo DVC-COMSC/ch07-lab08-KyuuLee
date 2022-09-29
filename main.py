@@ -1,27 +1,17 @@
-# ******************************
-# Make your Code
-# ******************************
-import random 
 
-numbers = []
-for i in range(10):
-	numbers.append(random.randint(0,20))
-print ("Before sorted\n", numbers)
+numbers = list(map(int, input('Enter 5 numbers in ascending order').split()))
+# print (numbers)
+insval = int(input('Enter the insertion value'))
 
-insert_val = int(input("Enter one integer"))
-#numbers = sorted(numbers)
-numbers.sort()
-
-print ("Before insertion\n", numbers)
-
-
-for i in range(len(numbers)):
-	if ( insert_val < numbers[i]):
-		numbers.insert(i, insert_val)
+i = 0
+while ( i < len(numbers)):
+	if (insval < numbers[i]):
+		numbers.insert(i, insval)
 		break
+	i += 1
 else:
-	numbers.append(insert_val)
+	numbers.append(insval)
 
-print ("After insertion\n", numbers)
+print (numbers)
 
 
