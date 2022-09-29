@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python main.py",
       "input": "10 15 30 35 45\r\n55\r\n",
-      "output": "[\\w,\\W]*10[\\w,\\W]*15[\\w,\\W]*30[\\w,\\W]*35[\\w,\\W]*45[\\w,\\W]*55[\\w,\\W]*10",
+      "output": "[\\w,\\W]*10[\\w,\\W]*15[\\w,\\W]*30[\\w,\\W]*35[\\w,\\W]*45[\\w,\\W]*55[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
