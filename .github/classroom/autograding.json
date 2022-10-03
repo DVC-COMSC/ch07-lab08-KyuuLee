@@ -23,9 +23,9 @@
     {
       "name": "T3",
       "setup": "",
-      "run": "grep sort main.py",
+      "run": "python testsort.py",
       "input": "",
-      "output": "",
+      "output": "True",
       "comparison": "included",
       "timeout": 10,
       "points": 1
