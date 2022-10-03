@@ -1,7 +1,7 @@
 
 numbers = list(map(int, input('Enter 5 numbers in ascending order').split()))
 # print (numbers)
-insval = int(input('Enter the insertion value'))
+insval = int(input('Enter the insertion value: '))
 
 i = 0
 while ( i < len(numbers)):
