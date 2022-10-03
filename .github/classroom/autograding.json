@@ -19,6 +19,16 @@
       "comparison": "regex",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "grep sort main.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
